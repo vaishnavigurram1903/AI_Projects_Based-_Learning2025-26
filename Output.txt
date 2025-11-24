@@ -1,0 +1,22 @@
+OUTPUT:
+
+?- init_game.
+Game initialized! You are in room 0.
+In room 0: You smell a stench. You feel a breeze. You hear rustling.
+
+?- move(4).
+Moved to room 4
+In room 4: You feel a breeze.
+
+?- move(5).
+Moved to room 5
+In room 5:
+
+?- shoot(14).
+You missed! You have 2 arrows left.
+
+?- status.
+Player in room: 5
+Arrows remaining: 2
+Game is active.
+In room 5:
